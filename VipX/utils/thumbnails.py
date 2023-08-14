@@ -79,7 +79,7 @@ async def gen_thumb(videoid, user_id):
         d = np.array(a)
         e = np.dstack((c, d))
         f = Image.fromarray(e)
-        x = f.resize((307, 307))
+        x = f.resize((280, 280))
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
         bg = Image.open(f"VipX/assets/vipx.png")
@@ -117,12 +117,12 @@ async def gen_thumb(videoid, user_id):
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("VipX/assets/font2.ttf", 50)
-        ImageFont.truetype("VipX/assets/font2.ttf", 30)
-        arial = ImageFont.truetype("VipX/assets/font2.ttf", 45)
-        ImageFont.truetype("VipX/assets/font.ttf", 30)
+        font = ImageFont.truetype("VipX/assets/font2.ttf", 48)
+        ImageFont.truetype("VipX/assets/font2.ttf", 28)
+        arial = ImageFont.truetype("VipX/assets/font2.ttf", 42)
+        ImageFont.truetype("VipX/assets/font.ttf", 28)
         name_font = ImageFont.truetype("VipX/assets/font.ttf", 30)
-        para = textwrap.wrap(title, width=30)
+        para = textwrap.wrap(title, width=28)
         try:
             draw.text(
                 (590, 80),
