@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot,𝐀𝐥𝐥 𝐃𝐞𝐬𝐢𝐠𝐧 𝐍𝐚𝐦𝐞 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝.
-MUSIC_BOT_NAME = "𝄟ॐ𝗣𝗢𝗢𝗡𝗔𝗠🍷𝗠𝗨𝗦𝗜𝗖⏤͟͟͞❥͜͡𝄟⃟"
+MUSIC_BOT_NAME = "𝄟ॐ𝗥𝗢𝗦𝗦𝗬🍷𝗠𝗨𝗦𝗜𝗖⏤͟͟͞❥͜͡𝄟⃟"
 
 # Your User ID.
 OWNER_ID = list(
@@ -166,31 +166,31 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL")
+START_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-PING_IMG_URL = getenv("START_IMG_URL")
+PING_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-PLAYLIST_IMG_URL = getenv("START_IMG_URL")
+PLAYLIST_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-GLOBAL_IMG_URL = getenv("START_IMG_URL")
+GLOBAL_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-STATS_IMG_URL = getenv("START_IMG_URL")
+STATS_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-TELEGRAM_AUDIO_URL = getenv("START_IMG_URL")
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-TELEGRAM_VIDEO_URL = getenv("START_IMG_URL")
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-STREAM_IMG_URL = getenv("START_IMG_URL")
+STREAM_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-SOUNCLOUD_IMG_URL = getenv("START_IMG_URL")
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-YOUTUBE_IMG_URL = getenv("START_IMG_URL")
+YOUTUBE_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-SPOTIFY_ARTIST_IMG_URL = getenv("START_IMG_URL")
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-SPOTIFY_ALBUM_IMG_URL = getenv("START_IMG_URL")
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
-SPOTIFY_PLAYLIST_IMG_URL = getenv("START_IMG_URL")
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/7be66bd296d228de58396.jpg"
 
 
 def time_to_seconds(time):
